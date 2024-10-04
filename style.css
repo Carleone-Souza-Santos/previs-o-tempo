@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('assets/img_clima.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.box_prev {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.cont-prev {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-cidade {
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.input-cidade::placeholder {
+  color: #ccc;
+}
+
+.button_buscar {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  opacity: 0.8;
+}
+
+.caixa-media {
+  margin-bottom: 20px;
+}
+
+#temperatura {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.imgprev {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.cont-temp {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+#infor {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
